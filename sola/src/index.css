@@ -4,3 +4,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.mobile-links{
+    @apply text-xl text-white font-semibold tracking-wider
+}
