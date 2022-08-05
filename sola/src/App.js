@@ -1,5 +1,6 @@
 import './index.css';
 import LandingPage from './Components/LandingPage';
+import './sidebar.css'
 
 function App() {
   return (

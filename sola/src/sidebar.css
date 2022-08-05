@@ -4,3 +4,6 @@
     transition: all 0.3s linear;
 }
 
+.bg{
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f9f9f9 33px ), repeating-linear-gradient( #ffffff55, #ffffff );
+}

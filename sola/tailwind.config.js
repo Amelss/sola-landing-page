@@ -2,14 +2,15 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      colours: {
-        babyBlue: "#3f5efb",
-        babyPink: "#fc466b",
+      colors: {
+        babyBlue: "#3F5EFB",
+        babyPink: "#FC466B",
+        greyish: "#F9F9F9",
       },
       fontFamily: {
         libreFranklin: ["Libre Franklin"],
-        pacifico: ["Pacifico"]
-      }
+        pacifico: ["Pacifico"],
+      },
     },
   },
   plugins: [],

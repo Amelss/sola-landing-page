@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 export default function LandingPage() {
   return (
     <div className="px-4 md:px-0 pt-4 md:pt-36 flex md:justify-center">
-          <div className="bg-white mb-8 lg:-mt-20 2xl:mt-0 rounded-md w-full md:w-[900px] bg-opacity-80 pb-20 pl-5 pr-5 pt-5">
+          <div className="bg-greyish bg mb-8 lg:-mt-20 2xl:mt-0 rounded-md w-full md:w-[900px] bg-opacity-80 pb-20 pl-5 pr-5 pt-5">
               <Navbar />
               <div className='md:flex items-center justify-between  pb-10'>
                   <img src="./images/ethereum.png" alt="coins" className=' md:hidden nmd:w-96  py-10 mx-auto' />
@@ -14,7 +14,7 @@ export default function LandingPage() {
               <img src="./images/ethereum.png" alt="coins" className='hidden md:flex md:w-96 pr-4 py-10' />
               </div>
               
-                <p className='font-libreFranklin text-center  md:text-left md:-mt-44 md:px-6 '>Experience the power of Sola today, <br></br> for freedom tomorrow.</p>
+                <p className='font-libreFranklin text-center md:text-left md:-mt-44 md:px-6 '>Experience the power of Sola today, <br></br> for freedom tomorrow.</p>
                 
               <div className='text-center md:text-left'>
                   <button type='button' className='px-6 mt-8 md:ml-6 py-2 rounded-md text-white font-libreFranklin font-semibold bg-gradient-to-r from-yellow-500 to-pink-500 hover:from-blue-400 hover:to-purple-500'>Launch App</button>
